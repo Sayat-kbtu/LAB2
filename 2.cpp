@@ -12,6 +12,11 @@ int main(){
     int kolem = pow(round(d), 3);
     int dd = pow(a, 2) + pow(b, 2) +pow(c, 2);
     int n = sqrt(dd);
+    float lg = log(d);
+    int x = a*b;
+    int y = a/b;
+    int z = a + b +c;
+
  
  
  
@@ -20,6 +25,11 @@ int main(){
     cout << "The lower number: " << min_el_2 << endl;
     cout << "Volume: " << kolem << endl;
     cout << "Module of the vector: " << n << endl;
+    cout << "Log(e_d): " << lg << endl;
+    cout << x << endl;
+    cout << y << endl;
+    cout << z << endl;
+    
     return 0;
  
  
